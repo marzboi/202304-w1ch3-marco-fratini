@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  outline: red 1px solid;
 }
 
 html {
@@ -14,19 +15,26 @@ body {
 }
 
 header {
+  align-items: center;
   justify-content: space-around;
   display: flex;
   background-color: #279989;
   padding: 20px;
+  color: white;
 }
 
 .navigation-list {
   display: flex;
-  justify-content: space-between;
   padding: 0;
   list-style-type: none;
+  align-content: center;
+}
+
+.page-title {
+  font-size: 1.5rem;
 }
 
 .navigation-list li {
   padding: 10px;
+  font-size: 1.5rem;
 }
