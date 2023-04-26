@@ -101,3 +101,7 @@ main {
 .form-container h2 {
   font-size: 2rem;
 }
+
+span {
+  padding-left: 5px;
+}
