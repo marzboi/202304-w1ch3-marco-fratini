@@ -115,3 +115,24 @@ a:visited {
   text-decoration: inherit;
   color: white;
 }
+
+.item-checkbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.checkout {
+  padding: 20px;
+}
+
+.total {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 2rem;
+}
+
+.checkmark {
+  transform: scale(2, 2);
+}
