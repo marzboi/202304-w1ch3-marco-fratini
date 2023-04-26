@@ -6,11 +6,47 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="favicon/pepe-16-270481.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/e94fa92939.js" crossorigin="anonymous"></script>
   <title>Shopping List</title>
 </head>
 
 <body>
-  <h1>Hola Mundo</h1>
+
+  <header>
+    <section class="page-title">
+      <h1>Lista de la compra</h1>
+    </section>
+
+    <nav>
+      <ol class="navigation-list">
+        <li><a href="#">Principal</a></li>
+        <li><a href="#">Lista</a></li>
+        <li><a href="#">Acerca de</a></li>
+      </ol>
+    </nav>
+  </header>
+
+  <main>
+    <section class="list-expander">
+      <i class="fa-regular fa-circle-plus" style="color: #ffffff;"></i>
+      <span>2/3 Comprados</span>
+    </section>
+    <section class="form-container">
+      <h2>Añadir Articulo</h2>
+      <form class="item-finder">
+        <label for="name">Nombre:</label>
+        <input class="input-box" type="text" id="name" name="name">
+        <label for="price">Precio:</label>
+        <div>
+          <input class="input-box" type="text" id="price" name="price"><span>€</span>
+        </div>
+        <input class="submit" type="submit" value="Agregar">
+      </form>
+
+    </section>
+
+  </main>
 </body>
 
 </html>
